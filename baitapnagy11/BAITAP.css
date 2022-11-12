@@ -1,0 +1,28 @@
+
+ul {
+
+    float: right;
+
+
+    p{
+        font-family: " Times New Roman";
+    }
+}
+h1{
+    color: deeppink;
+}
+h2{
+    color: deeppink;
+}
+h3{
+    color : deeppink;
+}
+h4{
+    color : deeppink;
+}
+
+
+hr {
+   background-color: deeppink;
+    height: 5px;
+}
