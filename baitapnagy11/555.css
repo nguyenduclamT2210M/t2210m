@@ -1,0 +1,26 @@
+img {
+    max-width: 70%;
+
+}
+div{
+    width: calc(25% - 20px);
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    background-color: ;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px red;
+
+
+}
+div:hover{
+    color: green;
+
+    background-color: blueviolet;
+
+}
+p1 {
+    color: blue;
+    text-decoration:underline;
+}
