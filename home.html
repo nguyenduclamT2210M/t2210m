@@ -20,13 +20,14 @@
             float: left;
             width: calc(25% - 20px);
             margin: 10px;
-            background-color: #00008b57;
+            background-color: darkcyan;
             padding: 30px 45px;
             border-radius: 20px;
         }
         h1{
             font-size: 16px;
         }
+
     </style>
 </head>
 <body>
@@ -47,7 +48,7 @@
         var datas = data.list;
         for (var i=0; i<datas.length;i++){
             var date=datas[i].dt_txt;
-            var doc=datas[i].main.temp;
+            var doc=datas[i].main.temp ;
             var des=datas[i].weather[0].description;
             var icon=datas[i].weather[0].icon;
             document.getElementById("weather").innerHTML+=`<div>
@@ -63,4 +64,4 @@
 </script>
 </body>
 </html>
-Footer
+
